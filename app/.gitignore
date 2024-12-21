@@ -1,0 +1,14 @@
+# Ignore environment files
+.env
+
+# Ignore Python bytecode
+__pycache__/
+*.pyc
+
+# Ignore database and checkpoints
+*.sqlite3
+.ipynb_checkpoints/
+vectorstore/
+
+# Ignore system files
+.DS_Store
